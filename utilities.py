@@ -120,7 +120,7 @@ def load_local_css(file_name):
 #             </div>""", unsafe_allow_html=True)
 path1 = os.path.dirname(__file__)
 
-file_1 = open(f"{path}/LIME_img.png", "rb")
+file_1 = open(f"{path}/lime_img.png", "rb")
 
 contents1 = file_1.read()
 
