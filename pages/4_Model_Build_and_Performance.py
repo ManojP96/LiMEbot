@@ -214,7 +214,7 @@ with cols1:
   #if st.button('Build Model'):
   if 'iterations' not in st.session_state:
     st.session_state['iterations']=1
-  save_path = "Model"
+  save_path = "model"
   if st.session_state["final_selection"] is not None:
     st.write(f'Total combinations created {format_numbers(len(st.session_state["final_selection"]))}')
   if st.checkbox('Build all iterations'):
