@@ -3,7 +3,7 @@ credentials:
     blend360:
       email: geethu4444@gmail.com
       name: Geetakrishna
-      password:$2b$12$Z3IqhiMwHnsrcsY2QVJbgu6xX3LJ75YiXShy1F2344suRwdBHD4oe
+      password: $2b$12$Z3IqhiMwHnsrcsY2QVJbgu6xX3LJ75YiXShy1F2344suRwdBHD4oe
 cookie:
   expiry_days: 1
   key: some_signature_key
