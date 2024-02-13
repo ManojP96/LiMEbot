@@ -214,7 +214,7 @@ with cols1:
   #if st.button('Build Model'):
   if 'iterations' not in st.session_state:
     st.session_state['iterations']=1
-  save_path = r"C:\Users\ManojP\Downloads\Lime2.0\Lime2.0\Model"
+  save_path = "Model"
   if st.session_state["final_selection"] is not None:
     st.write(f'Total combinations created {format_numbers(len(st.session_state["final_selection"]))}')
   if st.checkbox('Build all iterations'):
